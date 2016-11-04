@@ -1,0 +1,40 @@
+/* Inserta tu CSS aqui */
+
+.caja{
+	border: 1px solid #444444;
+	background: #999999;
+	width: 100px;
+	height: 100px;
+}
+
+.contenedor{
+	border: 1px solid #444444;
+	background: #999999;
+	display: inline-block;
+	padding: 5px;
+	padding-bottom: 5px;
+	margin-left: 5px;
+}
+.contenedor .caja{
+	display: inline-block;
+	line-height: 80px;
+}
+
+.inline{
+	margin: 5px;
+	margin-left: 5px;
+}
+.inline .caja{
+	display: inline-block;
+}
+
+body>.caja{
+	margin: 5px;
+	margin-left: 5px;
+}
+body>.caja:last-child{
+	margin-top: 5px;
+}
+
+
+	
